@@ -1,0 +1,51 @@
+.courses {
+    display: flex;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.courses>*:first-child {
+    margin-left: 0;
+}
+
+.courses>*:last-child {
+    margin-right: 0;
+}
+
+.course-item {
+    max-width: 33%;
+}
+
+.course-item-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.course-item-value {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.course-item-value.top {
+    color: rgb(255, 51, 51);
+}
+
+.course-item-value.bottom {
+    color: rgb(19, 189, 61);
+}
+
+.btn1 {
+    min-width: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.btn1:focus {
+    outline: none;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
